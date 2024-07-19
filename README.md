@@ -30,6 +30,13 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Configure as variáveis de entrada e saída de acordo com os dados.
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
+Foi importado um dataset com xxx dados.
+Na TARGET COLUMN foi escolhido a coluna QUANTIDADE_ESTOQUE, dessa forma o modelo irá prever QUANTIDADE_ESTOQUE usando valores de dados passados ​​para prever valores de dados futuros.
+Foi selecionado o modelo de previsão de série temporal, porque usa valores de dados passados ​​para prever valores de dados futuros.
+O treinamento do modelo foi realizado com a construção rápida (Quick Build), mmédia de 20 minutos para obter ass métricas de performance do modelo.
+Existem dois tipo de treinamento do modelo. O modelo xxx é mais demorado (media de horas), porém devolve com resultados de métricas valores ideais menores que 1. Assim, optei por escolher o modelo de contrução rápida para poder trabalhar com suas métricas fora dos valores ideais e conseguir construir um modelo perfeito.
+
+
 ### 3. Analisar
 
 -   Após o treinamento, examine as métricas de performance do modelo.
